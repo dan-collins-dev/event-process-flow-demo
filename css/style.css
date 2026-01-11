@@ -6,7 +6,7 @@
     margin: 0;
 }
 
-.parent {
+#parent {
     display: flex;
     flex-direction: column;
     background-color: rgb(14, 158, 14);
@@ -14,7 +14,7 @@
     padding: 1em;
 }
 
-.child {
+#child {
     display: flex;
     margin: 2em;
     background-color: rgb(34, 179, 97);
@@ -22,14 +22,14 @@
     height: 80%;
 }
 
-.sibling {
+#sibling {
     margin: 2em;
     background-color: rgb(34, 179, 97);
     padding: 1em;
     height: 80%;
 }
 
-.grandchild {
+#grand-child {
     margin: 1em 2em;
     background-color: rgb(59, 204, 175);
     padding: 1em;
