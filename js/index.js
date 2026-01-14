@@ -11,7 +11,7 @@ const elements = {
 
 
 // Experiment with different behaviors by implementing stopPropagation(),
-// preventDefault(), and the phase in which the event fires.
+// preventDefault(), and the phase in which the event is handled.
 
 elements.parent.addEventListener("click", function (event) {
     alert(`Current element handling event: ${this.dataset.nodeName}\nEvent emitted By: ${event.target.dataset.nodeName}`);
