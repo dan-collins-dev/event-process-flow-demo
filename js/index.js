@@ -9,6 +9,10 @@ const elements = {
     sibling: document.getElementById("sibling"),
 }
 
+
+// Experiment with different behaviors by implementing stopPropagation(),
+// preventDefault(), and the phase in which the event fires.
+
 elements.parent.addEventListener("click", function (event) {
     alert(`Current element handling event: ${this.dataset.nodeName}\nEvent emitted By: ${event.target.dataset.nodeName}`);
 });
