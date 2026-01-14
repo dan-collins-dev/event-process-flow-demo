@@ -1,5 +1,7 @@
 "use strict";
 
+// For demoing the dynamic nature of objects
+// Not recommending as a "do this"
 const elements = {
     parent: document.getElementById("parent"),
     child: document.getElementById("child"),
